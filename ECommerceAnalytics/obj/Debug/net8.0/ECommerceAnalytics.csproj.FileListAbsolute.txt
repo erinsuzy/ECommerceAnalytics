@@ -1,0 +1,17 @@
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.csproj.AssemblyReference.cache
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.AssemblyInfoInputs.cache
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.AssemblyInfo.cs
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.csproj.CoreCompileInputs.cache
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\bin\Debug\net8.0\ECommerceAnalytics.exe
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\bin\Debug\net8.0\ECommerceAnalytics.deps.json
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\bin\Debug\net8.0\ECommerceAnalytics.runtimeconfig.json
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\bin\Debug\net8.0\ECommerceAnalytics.dll
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\bin\Debug\net8.0\ECommerceAnalytics.pdb
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerc.31D1F595.Up2Date
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.dll
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\refint\ECommerceAnalytics.dll
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.pdb
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ECommerceAnalytics.genruntimeconfig.cache
+C:\Users\erins\source\repos\ECommerceAnalytics\ECommerceAnalytics\obj\Debug\net8.0\ref\ECommerceAnalytics.dll

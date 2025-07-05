@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "k7MuyLqVsOA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\erins\\source\\repos\\ECommerceAnalytics\\ECommerceAnalytics\\ECommerceAnalytics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\erins\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
