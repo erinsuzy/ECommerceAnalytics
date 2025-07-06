@@ -1,12 +1,12 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
+using ECommerceAnalytics;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace ECommerceAnalytics
 {
     public class CsvGenerator
@@ -57,7 +57,7 @@ namespace ECommerceAnalytics
         {
             using var writer = new StreamWriter(path, false, Encoding.UTF8);
             using var csv = new CsvWriter(writer, new CsvConfiguration(CultureInfo.InvariantCulture));
-
+            csv.Context.RegisterClassMap<OrderMap>();
             csv.WriteHeader<Order>();
             csv.NextRecord();
 
@@ -98,12 +98,29 @@ namespace ECommerceAnalytics
 
                 //Console progress
 
-                if ((i + 1) % numberOfRecords == 0)
+                if ((i + 1) % 10000 == 0)
                     Console.WriteLine($"{i + 1} records written...");
 
             }
-            Console.WriteLine($"Successfully wrote {numberOfRecords: NO} records to {path}");
+            Console.WriteLine($"Successfully wrote {numberOfRecords : N0} records to {path}");
         }
 
+ 
+    }
+}
+
+public sealed class OrderMap : ClassMap<Order>
+{
+    public OrderMap()
+    {
+        Map(m => m.OrderId).Name("order_id");
+        Map(m => m.OrderDate).Name("order_date");
+        Map(m => m.UserId).Name("user_id");
+        Map(m => m.ProductId).Name("product_id");
+        Map(m => m.Quantity).Name("quantity");
+        Map(m => m.Price).Name("price");
+        Map(m => m.TotalAmount).Name("total_amount");
+        Map(m => m.Country).Name("country");
+        Map(m => m.City).Name("city");
     }
 }
