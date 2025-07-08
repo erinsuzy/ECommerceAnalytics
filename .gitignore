@@ -1,0 +1,13 @@
+# Ignore Visual Studio & build files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Ignore CSV files from generator
+*.csv
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
